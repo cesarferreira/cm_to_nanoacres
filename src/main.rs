@@ -5,9 +5,9 @@
 use clap::{App, Arg};
 
 fn main() {
-    let matches = App::new("Centimeters to Nanoacres Converter")
+    let matches = App::new("Square Centimeters to Nanoacres Converter")
         .version("1.0")
-        .author("Your Name <your_email@example.com>")
+        .author("Cesar Ferreira <cesar.manuel.ferreira@gmail.com>")
         .about("Converts square centimeters to nanoacres")
         .arg(Arg::with_name("cm2")
              .help("The area in square centimeters to convert")
